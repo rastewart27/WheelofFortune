@@ -1,0 +1,25 @@
+Key Game aspects:
+ - 3 players -> class object setup MADGE
+ - gets to spin a wheel.
+ - buy a vowel IF you have more than 250$
+ - 2 rounds with 3 players 1 round with one player and no spinning
+  
+Gamestate loop
+Bank updating.
+Circumstantial Menu updating.
+Constant Puzzle Printing.
+Turn switching
+First Turn Player Selecting
+Final Round Special Gamestate.
+Allow for exact word guessing.
+ - Demand it for the final round.
+Timer on last round.
+Word Selection.
+
+Order [Rough]:
+Start Game:
+ - Select Word
+ - Select First player
+ - Play Game
+ - Store winners money
+ - Round 2, reset text.
